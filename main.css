@@ -1,0 +1,30 @@
+#content{
+    position:absolute;
+    width:500px;
+    height:500px;
+    top:20px;
+    left:450px;
+    background-color:rgb(118, 213, 213);
+}
+#query{
+    position:absolute;
+    width:500px;
+    height:100px;
+    top:525px;
+    left:450px;
+}
+img
+{
+	height: 300px;
+	width: 300px;
+}
+
+.contact-row
+{
+	margin-bottom: 20px;
+}
+
+#search-bar
+{
+	margin-bottom: 35px;
+}
