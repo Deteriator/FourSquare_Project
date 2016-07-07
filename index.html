@@ -1,23 +1,25 @@
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
+     <link href='https://fonts.googleapis.com/css?family=Lato:400,300,100,700,900' rel='stylesheet' type='text/css'>
      <link rel="stylesheet" type="text/css" href="main.css"> 
-    <script   src="https://code.jquery.com/jquery-3.0.0.min.js"   integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0="   crossorigin="anonymous"></script>
-    
+    <script src="https://code.jquery.com/jquery-2.2.2.min.js"></script>
+    <link href='https://api.foursquare.com/v2/venues/search?client_id=2IBMUH4WJ0UVFRSQIM3ELIIOXK2RJT4WNF1RDWQAQO2ZOUO5&client_secret=2VATYFFF0ABCSC5CKTQJNZOZU3BF2L1GSTMMKDWEP1D1HMK4&v=20130815&ll=40.7,-74&query=sushi' rel="stylesheet" />
 </head>
 <body>
+<header>
+    <h1>Food Square</h1>
+    </header>
     <div id=content>
-        <div id=name></div>
-        <div id=address></div>
-        <div id=phone></div>
+ 
       </div>
     <div id=query>
-             <input id="search_text" type="text"></input>
-                 <button class="styled">Submit</button>
-                 <button class="styled">Clear</button>
-             <input id="food_text" type="text"></input>
-                 <button class="styled">Submit</button>
-                 <button class="styled">Clear</button>
+             <input id="location" class="box_imput" type="text"></input>
+                 <button id="submit" class="styled">Submit</button>
+                 <button id= "clear" class="styled">Clear</button>
+             <input class="box_imput" type="text"></input>
+               
+               
         </div> 
     
 </body>
