@@ -7,20 +7,21 @@
     <link href='https://api.foursquare.com/v2/venues/search?client_id=2IBMUH4WJ0UVFRSQIM3ELIIOXK2RJT4WNF1RDWQAQO2ZOUO5&client_secret=2VATYFFF0ABCSC5CKTQJNZOZU3BF2L1GSTMMKDWEP1D1HMK4&v=20130815&ll=40.7,-74&query=sushi' rel="stylesheet" />
 </head>
 <body>
+<div id="clouds"></div>
 <header>
     <h1>Food Square</h1>
     </header>
     <div id=content>
- 
+ 		<table id="search-results">
+		</table>
+	<div id="detail-results" class="bg-info"></div>
       </div>
-    <div id=query>
+    <div id=query align=center>
              <input id="location" class="box_imput" type="text"></input>
-                 <button id="submit" class="styled">Submit</button>
-                 <button id= "clear" class="styled">Clear</button>
-             <input class="box_imput" type="text"></input>
-               
-               
+             <input id="food" class="box_imput" type="text"></input>
+             <button id="submit" class="styled">Submit</button>
+             <button id= "clear" class="styled">Clear</button>
         </div> 
-    
+ <script src="main.js"></script>   
 </body>
 </html>
